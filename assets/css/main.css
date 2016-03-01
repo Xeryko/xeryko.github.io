@@ -1940,7 +1940,8 @@
 	}
 
 		.item header {
-			background: #fff;
+            border-radius: 1em;
+			background: #E55500;
 			margin: 0;
 			padding: 1em 0 1em 0;
 			font-size: 0.8em;
@@ -2165,15 +2166,15 @@
 			}
 
 			#main > section.two {
-				background-color: #4E0476;
+				background-color: #350F61;
 			}
 
 			#main > section.three {
-				background-color: #620396;
+				background-color: #3D0F61;
 			}
 
 			#main > section.four {
-				background-color: #7E06C0;
+				background-color: #350F61;
 			}
 
 /* Wide */
