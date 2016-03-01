@@ -2076,7 +2076,7 @@
 				line-height: 1.75em;
 			}
             
-            #nav nav a:after {
+            #nav a:after {
                 background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
                 background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
                 background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
@@ -2088,7 +2088,7 @@
                 max-width: 0;
             }
             
-            #nav nav a:before, #nav nav a:after {
+            #nav a:before, #nav a:after {
                 border-radius: 0.2em;
                 bottom: 0;
                 content: '';
@@ -2184,7 +2184,6 @@
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
 			}
 
 			#main > section.two {
