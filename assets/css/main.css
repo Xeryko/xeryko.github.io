@@ -2050,6 +2050,7 @@
 		#logo .image {
 			position: absolute;
 			left: 10%;
+            top: 25%;
 		}
 
 	#nav ul li a {
@@ -2169,15 +2170,15 @@
 			}
 
 			#main > section.two {
-				background-color: #350F61;
+				background-color: #D8D8D8;
 			}
 
 			#main > section.three {
-				background-color: #3D0F61;
+				background-color: #390F61;
 			}
 
 			#main > section.four {
-				background-color: #350F61;
+				background-color: #D8D8D8;
 			}
 
 /* Wide */
