@@ -2076,7 +2076,7 @@
 				line-height: 1.75em;
 			}
             
-            #nav a:after {
+            #nav a span:after {
                 background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
                 background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
                 background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
@@ -2088,7 +2088,7 @@
                 max-width: 0;
             }
             
-            #nav a:before, #nav a:after {
+            #nav a span:before, #nav a span:after {
                 border-radius: 0.2em;
                 bottom: 0;
                 content: '';
