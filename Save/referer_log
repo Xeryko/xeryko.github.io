@@ -1890,3 +1890,15 @@ http://localhost/ -> /
 http://localhost/ -> /assets/css/main.css
 http://localhost/ -> /
 http://localhost/ -> /assets/css/main.css
+http://127.0.0.1/ -> /assets/css/main.css
+http://127.0.0.1/ -> /images/avatar.jpg
+http://127.0.0.1/ -> /assets/js/jquery.min.js
+http://127.0.0.1/ -> /assets/js/jquery.scrolly.min.js
+http://127.0.0.1/ -> /assets/js/jquery.scrollzer.min.js
+http://127.0.0.1/ -> /assets/js/skel.min.js
+http://127.0.0.1/ -> /assets/js/util.js
+http://127.0.0.1/ -> /assets/js/main.js
+http://127.0.0.1/ -> /assets/css/font-awesome.min.css
+http://127.0.0.1/assets/css/font-awesome.min.css -> /assets/fonts/fontawesome-webfont.woff2
+http://127.0.0.1/assets/css/main.css -> /assets/css/images/overlay.png
+http://127.0.0.1/ -> /images/favicon.ico
