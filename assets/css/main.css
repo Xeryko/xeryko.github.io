@@ -1651,7 +1651,7 @@
 	}
 
 		a:hover {
-			color: #F25700;
+			color: black;
 			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 
@@ -1669,7 +1669,7 @@
 
 	hr {
 		border: 0;
-		border-top: dashed 2px #0E0E0E;
+		border-top: solid 1px #0E0E0E;
 	}
 
 	blockquote {
@@ -1787,6 +1787,18 @@
 		ol.default li {
 			padding-left: 0.25em;
 		}
+
+	.one ul li p {
+		font-size: 75%;
+	}
+
+	.no-margin-bot {
+		margin-bottom: 0;
+	}
+
+	.mini-text {
+		font-size: 75%;
+	}
 
 /* Form */
 
@@ -1911,7 +1923,7 @@
 		color: #fff !important;
 		text-decoration: none;
 		padding: 0.75em 2.5em 0.75em 2.5em;
-		background-color: #F25700;
+		background-color: #1491ca;
 		border: 0;
 		cursor: pointer;
 		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
@@ -1945,11 +1957,13 @@
 	.item {
 		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
 		margin-bottom: 40px;
+		border-style: solid;
+    	border-width: 2px;
 	}
 
 		.item header {
             border-radius: 1em;
-			background: #E55500;
+			background: #1491ca;
 			margin: 0;
 			padding: 1em 0 1em 0;
 			font-size: 0.8em;
@@ -1958,6 +1972,14 @@
 			.item header h3 {
 				font-size: 1em;
 			}
+		
+		.one .item {
+		    border-color: black;
+		}
+
+		.two .item {
+			border-color: #F25700;
+		}
 
 /* Icons */
 
@@ -2036,6 +2058,9 @@
 		cursor: default;
         border-right-width: 0.1em;
         border-bottom-width: 0.1em;
+		border-width: 6px;
+    	border-color: black;
+    	border-style: double;
 	}
 
 		#logo h1 {
@@ -2104,7 +2129,7 @@
 	#footer {
 		margin-left: 375px;
 		text-align: center;
-		background-color: #390F61;
+		background-color: #cb4800;
 		padding: 3em 0 4em 0;
 		box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
 		font-size: 0.8em;
@@ -2174,7 +2199,7 @@
 			}
 
 			#main > section.one {
-				background-color: #390F61;
+				background-color: #CC4900;
 			}
 
 			#main > section.two {
@@ -2182,7 +2207,7 @@
 			}
 
 			#main > section.three {
-				background-color: #390F61;
+				background-color: #CC4900;
 			}
 
 			#main > section.four {
