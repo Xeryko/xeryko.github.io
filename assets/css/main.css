@@ -1987,6 +1987,14 @@
 		text-decoration: none;
 	}
 
+		.icon.fa-star, .icon.fa-star-o, .icon.fa-star-half-full {
+			color: #e3c93c;
+		}
+
+		.icon.eval {
+			font-size: 75%;
+		}
+
 		.icon:before {
 			display: inline-block;
 			font-family: FontAwesome;
