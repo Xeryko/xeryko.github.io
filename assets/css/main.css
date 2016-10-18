@@ -1601,6 +1601,11 @@
 			color: #333;
 		}
 
+	h1 {
+		font-size: 3em;
+		letter-spacing: -1px;
+	}
+
 	h2 {
 		font-size: 2em;
 		letter-spacing: -1px;
@@ -1670,6 +1675,10 @@
 	hr {
 		border: 0;
 		border-top: solid 1px #0E0E0E;
+	}
+
+	.two hr {
+		border-color: #CC4900;
 	}
 
 	blockquote {
@@ -1789,7 +1798,7 @@
 		}
 
 	.one ul li p {
-		font-size: 75%;
+		font-size: 85%;
 	}
 
 	.no-margin-bot {
